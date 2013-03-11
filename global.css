@@ -1,0 +1,2803 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, em, img, ins, kbd, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  border:0;
+  margin:0;
+  outline:0;
+  padding:0;
+}
+body {
+  font-family:Georgia, serif;
+  line-height:1;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display:block;
+}
+nav ul, menu ul {
+  list-style:none;
+}
+blockquote, q {
+  quotes:none;
+}
+input, select {
+  vertical-align:middle;
+}
+.clearfix::after {
+  clear:both;
+  content:' ';
+  display:block;
+  font-size:0;
+  height:0;
+  line-height:0;
+  visibility:hidden;
+}
+.clearfix {
+  display:inline-block;
+}
+html[xmlns] .clearfix {
+  display:block;
+}
+* html .clearfix {
+  height:1%;
+}
+.clear {
+  clear:both;
+  font-size:0;
+  height:0;
+  line-height:0;
+}
+.hidden {
+  display:none;
+}
+.g-full {
+  min-height:1px;
+  width:100%;
+}
+.g-1 {
+  width:40px;
+}
+.g-2 {
+  width:96px;
+}
+.g-3 {
+  width:152px;
+}
+.g-4 {
+  width:208px;
+}
+.g-5 {
+  width:264px;
+}
+.g-6 {
+  width:320px;
+}
+.g-7 {
+  width:376px;
+}
+.g-8 {
+  width:432px;
+}
+.g-9 {
+  width:488px;
+}
+.g-10 {
+  width:544px;
+}
+.g-11 {
+  width:600px;
+}
+.g-12 {
+  width:656px;
+}
+.g-13 {
+  width:712px;
+}
+.g-14 {
+  width:768px;
+}
+.g-15 {
+  width:824px;
+}
+.g-16 {
+  width:880px;
+}
+.g-17 {
+  width:936px;
+}
+.g-1, .g-2, .g-3, .g-4, .g-5, .g-6, .g-7, .g-8, .g-9, .g-10, .g-11, .g-12, .g-13, .g-14, .g-15, .g-16, .g-17 {
+  float:left;
+  margin-right:16px;
+  min-height:1px;
+}
+.g-last {
+  margin-right:0;
+}
+.lazyImage img {
+  display:none;
+}
+.small_new, .thumb2, .medium, .medium_new {
+  display:block;
+}
+.small_new {
+  min-height:144px;
+  width:96px;
+}
+.thumb2 {
+  min-height:228px;
+  text-decoration:none;
+  width:152px;
+}
+.thumb2 h4 {
+  margin-top:5px;
+}
+.medium {
+  min-height:312px;
+  width:208px;
+}
+.medium_new {
+  min-height:350px;
+  width:320px;
+}
+a {
+  -webkit-transition:color 0.2s linear;
+  color:#000000;
+}
+a:hover {
+  color:#F20030;
+}
+.buttonLink {
+  -webkit-transition:all 0.2s linear;
+  background-color:#000000;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:medium none;
+  color:#FFFFFF;
+  cursor:pointer;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:1em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.15em;
+  line-height:1.5em;
+  padding:2px 15px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.buttonLink:hover {
+  background-color:#F20030;
+}
+img {
+  max-width:100%;
+}
+.site {
+  margin:0 auto;
+  padding:0 10px 20px;
+}
+.adLabel {
+  color:#666666;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.2em;
+  line-height:1.5em;
+  text-align:center;
+  text-transform:uppercase;
+}
+.ad .adContainer {
+  text-align:center;
+}
+#adBannerTop .adContainer {
+  float:right;
+}
+#adBannerBottom {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding:0 0 15px;
+  text-align:center;
+}
+#adBannerBottom .adContainer {
+  margin:0 auto;
+  width:728px;
+}
+#adSteroLeft, #adSteroRight {
+  margin:12px 0 0;
+}
+#adCirc300x300 {
+  text-align:center;
+}
+.siteHeader {
+  margin:0 0 15px;
+  position:relative;
+  z-index:10;
+}
+
+
+#CategoriesBarPage #Header {
+position: relative;
+z-index: 105;
+box-shadow: 0 0 transparent;
+-webkit-box-shadow: 0 0 transparent;
+}
+
+#CategoriesBar {
+position: absolute;
+z-index: 101;
+top: 44px;
+right: 0;
+left: 0;
+text-align: center;
+font-size: 13px;
+color: #8C7E7E;
+background-color: #FAF7F7;
+border-top: 1px solid #CFCACA;
+box-shadow: inset 0 1px white,0 1px 3px rgba(34, 25, 25, 0.4);
+-webkit-box-shadow: inset 0 1px white,0 1px 3px rgba(34, 25, 25, 0.4);
+}
+
+.metaNav {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-family:Times, serif;
+  font-size:0.625em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:30px;
+}
+.metaLinks {
+  list-style:none;
+}
+.metaLinks li {
+  border-left-color:#B2B2B2;
+  border-left-style:dotted;
+  border-left-width:1px;
+  float:left;
+}
+.metaLinks .subscribeLink {
+  border:none;
+}
+.metaLinks a {
+  display:block;
+  line-height:30px;
+  padding:0 10px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.metaLinks .subscribeLink a {
+  background-color:#F10033;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-494px 9px;
+  background-repeat:no-repeat no-repeat;
+  color:#FFFFFF;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:1.4em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:30px;
+  padding:0 20px;
+}
+#hdmLoginLinks {
+  float:right;
+  list-style:none;
+}
+#hdmLoginLinks li {
+  border-right-color:#CCCCCC;
+  border-right-style:solid;
+  border-right-width:1px;
+  float:left;
+  padding:0 20px;
+}
+#hdmLoginLinks li:last-child {
+  border:none;
+}
+#hdmLoginLinks a {
+  display:inline-block;
+  height:30px;
+  line-height:30px;
+  text-decoration:none !important;
+  text-transform:uppercase;
+}
+#hdmLoginLinks .fbLink {
+  padding-left:25px;
+  position:relative;
+}
+#hdmLoginLinks .fbLink::before {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-482px -71px;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:block;
+  height:30px;
+  left:0;
+  position:absolute;
+  width:25px;
+}
+#hdmLoginLinks img {
+  position:relative;
+  top:4px;
+}
+.headerBranding {
+  padding:10px 0;
+  text-align:center;
+}
+.siteNavigation {
+  border-top-color:#000000;
+  border-top-style:solid;
+  border-top-width:1px;
+}
+.navList {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+}
+.navList .navItem {
+  border-left-color:#CCCCCC;
+  border-left-style:solid;
+  border-left-width:1px;
+  float:left;
+  position:relative;
+}
+.navList .navItem.first {
+  border:none;
+}
+.navList .navLink {
+  color:#000000;
+  display:block;
+  font-family:Georgia, serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  height:36px;
+  line-height:36px;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.navList .navLink:hover, .navItem:hover .navLink {
+  background-color:#000000;
+  color:#FFFFFF;
+}
+.navList .navLink.on {
+  border-bottom-color:#000000;
+  border-bottom-style:solid;
+  border-bottom-width:3px;
+  height:33px;
+}
+.navList .navRunway {
+  width:31%;
+}
+.navList .navFashion {
+  width:31%;
+}
+
+.navList .navPop {
+  width:31%;
+}
+
+.navItem .subnav {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-color:#CCCCCC #E5E5E5 #E5E5E5;
+  border-style:solid;
+  border-width:1px 3px 3px;
+  display:none;
+  position:absolute;
+}
+.navNews .subnav {
+  right:0;
+}
+.navItem:hover .subnav {
+  display:block;
+}
+.subnavInner {
+  border-bottom-color:#CFCFCF;
+  border-bottom-width:1px;
+  border-left-color:#CFCFCF;
+  border-left-width:1px;
+  border-right-color:#CFCFCF;
+  border-right-width:1px;
+  border-style:none solid solid;
+  padding:6px;
+  position:relative;
+  width:330px;
+}
+.subnavInner::before {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-300px -42px;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:block;
+  height:8px;
+  left:10px;
+  position:absolute;
+  top:-1px;
+  width:10px;
+}
+.navNews .subnavInner::before {
+  left:auto;
+  right:10px;
+}
+.miniSubnavInner {
+  width:115px;
+}
+.subnavList {
+  border-right-color:#CCCCCC;
+  border-right-style:dotted;
+  border-right-width:1px;
+  padding-right:6px;
+  width:204px;
+}
+.subnav .feature {
+  display:block;
+  float:right;
+  margin:7px 0 0;
+  text-align:center;
+  text-decoration:none;
+  width:114px;
+}
+.subnav .featureP {
+  font-family:Georgia, serif;
+  font-size:0.875em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.285em;
+  padding-top:4px;
+}
+.subnav .featureP::after {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-491px -119px;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:inline-block;
+  height:12px;
+  margin-left:2px;
+  width:8px;
+}
+.subnavList li {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+}
+.subnavList .last {
+  border:none;
+}
+.subnavList .shopAccessories {
+  background-image:url(http://www.elle.com/cm/elle/site_images/accessories/shopAccessories.png);
+  background-position:0 14px;
+  background-repeat:no-repeat no-repeat;
+  padding:18px 0 10px 38px;
+}
+.subnavList a {
+  display:block;
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:0.875em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.2em;
+  padding:10px 2px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.searchForm {
+  background-color:#F4F4F4;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-492px -28px;
+  background-repeat:no-repeat no-repeat;
+  height:36px;
+  padding-left:15px;
+  position:relative;
+}
+.searchForm label {
+  font-family:Georgia, serif;
+  font-size:0.75em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  left:15px;
+  line-height:30px;
+  position:absolute;
+  top:4px;
+}
+.searchForm .searchInput {
+  background-color:#F4F4F4;
+  border:medium none;
+  float:left;
+  font-family:Georgia, serif;
+  font-size:0.75em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  height:36px;
+  line-height:30px;
+  padding:0 5px 0 0;
+  width:140px;
+}
+.searchForm .searchButton {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:0 -72px;
+  background-repeat:no-repeat no-repeat;
+  border:medium none;
+  cursor:pointer;
+  display:inline-block;
+  height:26px;
+  margin:4px 0 0;
+  text-indent:-9999em;
+  width:26px;
+}
+#imagePreloader {
+  height:0;
+}
+#adSponsorLogo {
+  float:right;
+  margin-bottom:30px;
+  width:88px;
+}
+.headerSponsorLabel {
+  color:#666666;
+  display:block;
+  font-family:FuturaPTCondBook-Reg, Futura, sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:14px;
+  padding-bottom:5px;
+  position:relative;
+  text-transform:uppercase;
+  top:23px;
+}
+#breadcrumb .sourceLogo {
+  margin-bottom:0;
+}
+.ie7 #breadcrumb .sourceLogo {
+  top:-17px;
+}
+.sourceLogo {
+  float:right;
+  margin:0 0 5px;
+  position:relative;
+  text-align:right;
+  vertical-align:middle;
+  width:88px;
+}
+.sourceLabel {
+  color:#666666 !important;
+  display:inline-block;
+  font-family:FuturaPTCondBook-Reg, Futura, sans-serif;
+  font-size:12px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:14px;
+  padding:0 0 5px;
+  text-align:center;
+  text-transform:uppercase;
+  vertical-align:middle;
+  width:88px;
+}
+.sourceLogoLink {
+  display:inline-block;
+  vertical-align:middle;
+}
+#mainWrapper {
+  background-color:#FFFFFF;
+  background-image:url(http://www.elle.com/cm/elle/site_images/wrapper-bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat repeat;
+}
+.forOpenArticle {
+  float:left;
+  font-family:Georgia, serif;
+  font-size:0.875em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.286em;
+  position:relative;
+  width:667px;
+}
+.forOpenArticle article {
+  margin-top:22px;
+}
+.forOpenArticle h1, .forOpenArticle h2 {
+  color:#333333;
+  font-family:FuturaPTLight-Reg;
+  font-size:53px;
+  font-weight:lighter;
+  line-height:1;
+}
+#breadcrumb {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+#breadcrumb .bcCurrent, #breadcrumb .bcLink, #breadcrumbSpacer {
+  color:#666666;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:0.875em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:1.25em;
+  text-transform:uppercase;
+}
+#breadcrumb .bcLink {
+  text-decoration:none;
+}
+#breadcrumb .bcCurrent {
+  color:#000000;
+}
+.channelTitle {
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:4.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1em;
+  text-shadow:#FFFFFF 1px 1px 0px, #999999 2px 2px 0;
+  text-transform:uppercase;
+}
+.channelDek {
+  color:#666666;
+  font-family:Georgia, serif;
+  font-size:1em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.125em;
+}
+.pageTitle {
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:3.25em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:0.85em;
+  text-transform:uppercase;
+}
+.pageDek {
+  color:#333333;
+  font-family:Georgia, serif;
+  font-size:1em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.1875em;
+  margin-top:5px;
+}
+.moduleTitle {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:0.85em;
+  margin:0 0 10px;
+  padding:13px 0 7px;
+  text-align:center;
+  text-transform:uppercase;
+}
+.headerTitle {
+  border-bottom-style:none;
+}
+.g-6 .moduleTitle {
+  text-align:left;
+}
+.rightRail .moduleTitle {
+  border-bottom-style:none;
+  margin-bottom:0;
+  text-align:center;
+}
+.moduleTitle .bold-red {
+  color:#F20030;
+  font-family:FuturaPTMedium-Reg;
+}
+.moduleTitle a {
+  text-decoration:none;
+}
+.contentRow.withMargin {
+  margin:0 0 15px;
+}
+.contentRow.withPadding {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  padding:0 0 20px;
+}
+.contentRowInner {
+  border-top-color:#CCCCCC;
+  border-top-style:solid;
+  border-top-width:1px;
+}
+.hrefCircle {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-130px -41px;
+  background-repeat:no-repeat no-repeat;
+  height:14px;
+  margin:0 auto;
+  width:27px;
+}
+.promoArticleTitle {
+  font-size:1em;
+  font-weight:normal;
+  line-height:1.125em;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.promoArticleTeaser {
+  color:#666666;
+  font-size:0.875em;
+  line-height:1.429em;
+  margin:7px 0 0;
+}
+.arrowAfter::after, .arrowBefore::before {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:inline-block;
+  height:10px;
+  width:8px;
+}
+.arrowAfter::after {
+  background-position:-491px -122px;
+  margin-left:5px;
+}
+.arrowAfter:hover::after, a:hover .arrowAfter::after {
+  background-position:-491px -166px;
+}
+.arrowAfter::before {
+  display:none;
+}
+.arrowBefore::before {
+  background-position:-491px -210px;
+  margin-right:5px;
+}
+.arrowBefore:hover::before, a:hover .arrowBefore::before {
+  background-position:-333px 0;
+}
+.arrowBefore::after {
+  display:none;
+}
+.seeMore {
+  display:block;
+  float:right;
+  font-size:0.625em;
+  letter-spacing:0.1em;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.seeMore, .seeMore:hover {
+  color:#F20030;
+}
+.seeMore span {
+  color:#000000;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:1.6em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+.seeMore:hover span {
+  color:#F20030;
+}
+.seeMore span::after {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-491px -122px;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:inline-block;
+  height:10px;
+  margin-left:2px;
+  width:8px;
+}
+.seeMore:hover span::after {
+  background-position:-491px -166px;
+}
+.moduleChannelPhotoPromo .border {
+  background-color:#000000;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  height:3px;
+  margin:10px 0;
+}
+.moduleChannelPhotoPromo .slideCaption .icon {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-65px -41px;
+  background-repeat:no-repeat no-repeat;
+  bottom:10px;
+  height:15px;
+  position:absolute;
+  right:10px;
+  width:15px;
+}
+.moduleChannelPhotoPromo {
+  background-image:url(http://www.elle.com/cm/elle/site_images/3column-bg.png);
+  background-position:-168px 0;
+  background-repeat:no-repeat repeat;
+  min-height:480px;
+  position:relative;
+}
+.moduleChannelPhotoPromo .rightImages {
+  position:absolute;
+  right:0;
+}
+.moduleChannelPhotoPromo .midImage {
+  left:168px;
+  position:absolute;
+}
+.moduleChannelPhotoPromo .imgWrapper {
+  display:block;
+  overflow:hidden;
+  position:relative;
+}
+.moduleChannelPhotoPromo a.imgWrapper:hover p {
+  color:#000000;
+}
+.moduleChannelPhotoPromo .txtWrapper {
+  background-color:rgba(255, 255, 255, 0.898438);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:7px;
+  left:5px;
+  padding:5px;
+  position:absolute;
+  width:132px;
+}
+.moduleChannelPhotoPromo .txtWrapper p {
+  text-transform:uppercase;
+}
+.moduleChannelPhotoPromo a {
+  text-decoration:none;
+}
+.moduleChannelPhotoPromo .slideCaption .txtWrapper {
+  display:none;
+}
+.moduleChannelPhotoPromo .midImage .txtWrapper {
+  bottom:20px;
+  left:20px;
+  padding:10px;
+  width:260px;
+}
+.moduleChannelPhotoPromo .midImage .imageTitle {
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1em;
+  margin:0 0 10px;
+  text-transform:uppercase;
+}
+.moduleChannelPhotoPromo .caption {
+  font-family:Georgia, serif;
+  line-height:1.25em;
+  text-transform:uppercase;
+}
+.moduleChannelPhotoPromo .midImage p {
+  border-top-color:#CCCCCC;
+  border-top-style:solid;
+  border-top-width:1px;
+  color:#000000;
+  padding-top:10px;
+}
+.moduleChannelPhotoPromo .midImage a:hover p {
+  color:#000000 !important;
+}
+.moduleChannelPhotoPromo .photo {
+  display:block;
+}
+.moduleBlogListing {
+  list-style:none;
+}
+.moduleBlogListing .blogItem {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin:0 0 10px;
+  padding:0 0 10px;
+}
+.moduleBlogListing .promoArticleTitle {
+  display:block;
+  margin:0 0 5px;
+}
+.moduleBlogListing .blogDate {
+  color:#666666;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:normal;
+  text-transform:uppercase;
+}
+.moduleBlogListing .blogDate a {
+  color:#666666;
+  display:inline-block;
+  margin-left:5px;
+  text-decoration:none;
+}
+.moduleBlogListing .blogDate a:hover {
+  color:#F20030;
+}
+.moduleStreetChic .imageContainer {
+  margin-bottom:10px;
+  position:relative;
+}
+.moduleStreetChic .imageContainer a {
+  text-decoration:none;
+}
+.moduleStreetChic .caption {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:0;
+  color:#666666;
+  display:block;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  left:0;
+  letter-spacing:0.1em;
+  line-height:normal;
+  max-width:60%;
+  padding:5px;
+  position:absolute;
+  text-transform:uppercase;
+}
+.moduleStreetChic .topContainer {
+  margin:0 0 25px;
+}
+.module2ColumnListWithPromo .promo {
+  padding:0 0 10px;
+}
+.module2ColumnListWithPromo .textOnly {
+  border-top-color:#CCCCCC;
+  border-top-style:solid;
+  border-top-width:1px;
+  padding:10px 0;
+}
+.module2ColumnListWithPromo .promoImage {
+  float:left;
+  margin:0 16px 10px 0;
+}
+.module4ColumnWithImages {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  padding:0 0 25px;
+}
+.module4ColumnWithImages .promoImage {
+  margin:0 0 10px;
+}
+.moduleSingleArticlePromo .imageContainer {
+  float:left;
+  margin:0 15px 5px 0;
+}
+.moduleSingleArticlePromo .articleTitle {
+  font-size:1em;
+  font-weight:normal;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.moduleSingleArticlePromo .articleTeaser {
+  color:#666666;
+  font-size:0.875em;
+  line-height:1.4286em;
+  padding:10px 0 0;
+}
+.module3ColumnWithImages {
+  background-color:#FFFFFF;
+  background-image:url(http://www.elle.com/cm/elle/site_images/4column-bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat repeat;
+}
+.module3ColumnWithImages .promoArticleTitle {
+  margin:10px 0;
+}
+.module3ColumnWithImages a {
+  display:block;
+  text-decoration:none;
+}
+.videoModule {
+  background-image:url(http://www.elle.com/cm/elle/site_images/more-bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat repeat;
+}
+.videoModule .video {
+  border-top-color:#CCCCCC;
+  border-top-style:solid;
+  border-top-width:1px;
+  padding:5px 0;
+}
+.videoModule .video.first {
+  border:none;
+  padding:0 0 5px;
+}
+.videoModule .videoTitle {
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.videoModule .videoTitle p {
+  padding-top:5px;
+}
+.videoModule .videoTitle p::after {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-193px -41px;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:inline-block;
+  height:15px;
+  position:relative;
+  top:1px;
+  width:18px;
+}
+.videoModule .video:hover p::after {
+  background-position:-216px -41px;
+}
+.videoModule .videoPlayer {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+.videoModule .videoPlayer .videoTitle {
+  padding:5px 0 15px;
+}
+.moduleMiniVideo .stillVideo {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+}
+.moduleMiniVideo .stillVideo .video {
+  border-bottom-color:#CCCCCC;
+  border-bottom-width:1px;
+  border-style:none none solid;
+  margin:0 0 5px;
+  padding:0 0 5px;
+}
+.moduleMiniVideo .relatedVideos .video.first {
+  margin-right:16px;
+}
+.moduleMiniVideo .relatedVideos .video {
+  border:none;
+  padding:0 0 5px;
+}
+.rightRail {
+  border-bottom-color:#000000;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin:0 0 25px;
+}
+.rightRail .module, .rightRail .ad {
+  margin:0 0 15px;
+  width:100%;
+}
+.rightRail .module .bottom {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:0 0;
+  background-repeat:no-repeat no-repeat;
+  height:26px;
+  margin-top:-15px;
+  position:relative;
+}
+.rightRail .moduleTitle {
+  border-top-color:#000000;
+  border-top-style:solid;
+  border-top-width:3px;
+  font-size:1.75em;
+  padding-bottom:5px;
+}
+#moduleSocialLinks {
+  border-bottom-color:#000000;
+  border-bottom-style:solid;
+  border-bottom-width:3px;
+  padding:0 0 10px;
+}
+#moduleSocialLinks .moduleTitle {
+  border:none;
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:1em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.2em;
+  line-height:normal;
+  margin:0 0 15px;
+}
+#moduleSocialLinks .socialList {
+  list-style:none;
+  width:100%;
+}
+#moduleSocialLinks .socialItem {
+  float:left;
+  text-align:center;
+  width:16.5%;
+}
+#moduleSocialLinks .socialIcon {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:initial initial;
+  background-repeat:no-repeat no-repeat;
+  display:inline-block;
+  height:40px;
+  text-indent:-9999em;
+  width:40px;
+}
+#rr_soc_fb_cont .socialIcon {
+  background-position:0 -120px;
+}
+#rr_soc_fb_cont .socialIcon:hover {
+  background-position:0 -164px;
+}
+#rr_soc_tw_cont .socialIcon {
+  background-position:-65px -120px;
+}
+#rr_soc_tw_cont .socialIcon:hover {
+  background-position:-65px -164px;
+}
+#rr_soc_pinterest_cont .socialIcon {
+  background-position:-256px -120px;
+}
+#rr_soc_pinterest_cont .socialIcon:hover {
+  background-position:-256px -165px;
+}
+#rr_soc_googlep_cont .socialIcon {
+  background-position:-320px -120px;
+}
+#rr_soc_googlep_cont .socialIcon:hover {
+  background-position:-320px -165px;
+}
+#rr_soc_tumblr_cont .socialIcon {
+  background-position:-131px -120px;
+}
+#rr_soc_tumblr_cont .socialIcon:hover {
+  background-position:-131px -164px;
+}
+#rr_soc_em_cont .socialIcon {
+  background-position:-194px -120px;
+}
+#rr_soc_em_cont .socialIcon:hover {
+  background-position:-194px -164px;
+}
+#moduleSmartTout .moduleContent {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:0 -374px;
+  background-repeat:no-repeat no-repeat;
+  padding-top:20px;
+}
+#moduleSmartTout ul {
+  background-color:#FFFFFF;
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+  padding:0 10px;
+  position:relative;
+  z-index:1;
+}
+#moduleSmartTout li {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-492px -118px;
+  background-repeat:no-repeat no-repeat;
+  margin:0 0 10px;
+  padding-left:15px;
+}
+#moduleSmartTout li:hover {
+  background-position:-492px -162px;
+}
+#moduleSmartTout a {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  display:block;
+  font-family:Georgia, serif;
+  font-size:0.875em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.286em;
+  text-decoration:none;
+}
+#moduleNewsletter .moduleContent {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-320px -374px;
+  background-repeat:no-repeat no-repeat;
+  padding:20px 0;
+  text-align:center;
+  width:100%;
+}
+#moduleNewsletter p {
+  font-family:Georgia, serif;
+  font-size:1em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.2em;
+  margin:0 0 15px;
+}
+#moduleNewsletter form {
+  float:none;
+  margin:0 auto;
+  position:relative;
+  z-index:1;
+}
+#moduleNewsletter input {
+  background-color:#F4F4F4;
+  border:medium none;
+  display:block;
+  font-style:italic;
+  line-height:26px;
+  margin:0 0 5px;
+  padding:5px 10px;
+  width:188px;
+}
+#moduleNewsletter label {
+  color:#666666;
+  display:block;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  letter-spacing:0.15em;
+  padding:0 0 5px;
+  text-transform:uppercase;
+}
+#moduleNewsletter label span {
+  border-top-color:#CCCCCC;
+  border-top-style:dotted;
+  border-top-width:1px;
+  display:block;
+  padding:5px 0 0;
+}
+#moduleNewsletter .buttonLink {
+  position:relative;
+  top:13px;
+}
+#moduleNewsletter .bottom {
+  margin-top:-30px;
+}
+#moduleRREditorialTout .moduleContent {
+  border-top-color:#CCCCCC;
+  border-top-style:solid;
+  border-top-width:1px;
+  padding:10px 0 0;
+}
+#moduleRREditorialTout .imageContainer {
+  display:block;
+  float:left;
+  margin:0 10px 10px 0;
+}
+#moduleRREditorialTout .toutTitle {
+  font-family:Georgia, serif;
+  font-size:1em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.125em;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#moduleRREditorialTout .toutDescription {
+  color:#666666;
+  font-family:Georgia, serif;
+  font-size:0.875em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.429em;
+  padding:15px 0 0;
+}
+#moduleObsessionOfTheDay .moduleContent {
+  padding:0 0 20px;
+  text-align:center;
+}
+#moduleObsessionOfTheDay .moduleContainer {
+  position:relative;
+  z-index:1;
+}
+#moduleObsessionOfTheDay .imageLink {
+  display:inline-block;
+}
+#moduleObsessionOfTheDay .productImage {
+  margin:0 auto;
+}
+#moduleObsessionOfTheDay .productTitle {
+  font-family:Georgia, serif;
+  font-size:1.125em;
+  font-style:italic;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+#moduleObsessionOfTheDay .productTitle span {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:dotted;
+  border-bottom-width:1px;
+  display:inline-block;
+  padding:10px 0 5px;
+}
+#moduleObsessionOfTheDay .productStore {
+  color:#666666;
+  display:block;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  letter-spacing:0.2em;
+  line-height:1.5em;
+  text-transform:uppercase;
+}
+#moduleObsessionOfTheDay .productPrice {
+  display:block;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:-0.05em;
+  line-height:1.1em;
+}
+#moduleObsessionOfTheDay .buttonLink {
+  -webkit-transition:all 0.2s linear;
+  padding:7px 15px;
+  position:relative;
+  top:22px;
+}
+#moduleObsessionOfTheDay .buttonLink:hover {
+  color:#FFFFFF;
+}
+#moduleObsessionOfTheDay .productLabel {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:0 -255px;
+  background-repeat:no-repeat no-repeat;
+  height:58px;
+  left:190px;
+  position:absolute;
+  top:-5px;
+  width:58px;
+}
+#moduleObsessionOfTheDay .productLabel span {
+  display:none;
+}
+#moduleFacebook .moduleContent {
+  text-align:center;
+}
+#moduleTwitter .moduleTitle {
+  line-height:30px;
+  padding:8px 0 0;
+}
+#moduleTwitter .twitterIcon {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-474px -256px;
+  background-repeat:no-repeat no-repeat;
+  display:inline-block;
+  height:30px;
+  position:relative;
+  text-indent:-9999em;
+  top:-3px;
+  width:34px;
+}
+#moduleTwitter .moduleContent {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-320px -373px;
+  background-repeat:no-repeat no-repeat;
+  padding-top:15px;
+  width:100%;
+}
+#moduleTwitter .twitterbottom {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:0 5px;
+  background-repeat:no-repeat no-repeat;
+  clear:both;
+  height:33px;
+  position:relative;
+}
+#moduleTwitter a.buttonLink {
+  left:65px;
+  padding-bottom:6px;
+  padding-top:6px;
+  position:relative;
+  text-decoration:none;
+  top:-14px;
+}
+#moduleTwitter a.buttonLink:hover {
+  color:#FFFFFF;
+  text-decoration:none;
+}
+#coverPhoto {
+  margin-right:0;
+  text-align:center;
+}
+.rightRail #twitterData ul li {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin-bottom:11px;
+  padding-bottom:18px;
+  padding-top:9px;
+  width:192px;
+}
+.rightRail #twitterData ul li:last-child {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:0;
+}
+.rightRail #twitterData ul {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-624px 1px;
+  background-repeat:no-repeat no-repeat;
+  font-family:Georgia, serif;
+  font-size:0.8em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.4em;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0 0 0 -4px;
+  padding-left:20px;
+}
+.rightRail li.tweets a {
+  color:#4A4849;
+  text-decoration:none;
+}
+.rightRail li.tweets .twitter_timestanp {
+  color:#7A7879;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:0.99em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:1px;
+  line-height:1.65em;
+  text-transform:uppercase;
+}
+.rightRail li.tweets .inner_url {
+  color:#000000;
+  font-style:italic;
+}
+#moduleTwitter .moduleTitle {
+  border-top-color:#000000;
+  border-top-style:solid;
+  border-top-width:3px;
+}
+#moduleRRVideo .moduleContent {
+  padding:0 0 20px;
+}
+#moduleRRVideo .videoModule {
+  background-image:none;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  text-align:center;
+}
+#moduleRRVideo .videoTitle {
+  color:#666666;
+  padding:0 10px;
+  text-transform:none;
+}
+#moduleRRVideo .buttonLink {
+  color:#FFFFFF;
+  margin:0 auto;
+  padding:7px 15px;
+  position:relative;
+  top:22px;
+  z-index:1;
+}
+#moduleGlo #gloList li {
+  margin:0 0 20px;
+}
+#mainWrapper article#content header#sitePageHead {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  display:block;
+  float:left;
+  margin:0 0 5px;
+  padding:0 0 10px;
+  width:100%;
+}
+#mainWrapper article#content header#sitePageHead .contentHeader h1 {
+  font-family:FuturaPTLight-Reg;
+  font-size:52px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:44px;
+  padding-bottom:5px;
+  padding-top:5px;
+  text-transform:uppercase;
+}
+#mainWrapper article#content header#sitePageHead .contentHeader h2 {
+  color:#333333;
+  font-family:Georgia, Geneva, sans-serif;
+  font-size:16px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:24px;
+}
+#mainWrapper header#sitePageHead {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  display:block;
+  float:left;
+  margin:10px 0 5px;
+  padding:0 0 10px;
+  width:100%;
+}
+#mainWrapper header#sitePageHead h1 {
+  font-family:FuturaPTLight-Reg;
+  font-size:52px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:44px;
+  padding-bottom:5px;
+  padding-top:5px;
+  text-transform:uppercase;
+}
+#mainWrapper header#sitePageHead h2 {
+  color:#333333;
+  font-family:Georgia, Geneva, sans-serif;
+  font-size:16px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:24px;
+}
+#mainWrapper #moduleMightLike {
+  float:left;
+}
+#mainWrapper #moduleMightLike h3 {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-top-color:#CCCCCC;
+  border-top-style:solid;
+  border-top-width:1px;
+  font-family:FuturaPTLight-Reg, Futura, sans-serif;
+  font-size:32px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:30px;
+  margin:0 0 10px;
+  padding:12px 0 5px;
+  text-align:left;
+  text-transform:uppercase;
+}
+#mainWrapper #pagination_bottom {
+  clear:none;
+  color:red;
+  float:left;
+  font-family:FuturaPTMedium-Reg;
+  font-size:14px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+#mainWrapper #pagination_bottom a.back {
+  background-image:url(http://www.elle.com/cm/elle/site_images/elle-sprite-buttons.png);
+  background-position:-6px -3px;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  height:25px;
+  padding:2px 10px 6px;
+  width:14px;
+}
+#mainWrapper #pagination_bottom a.back:hover {
+  background-image:url(http://www.elle.com/cm/elle/site_images/elle-sprite-buttons.png);
+  background-position:-6px -68px;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  height:25px;
+  padding:2px 10px 6px;
+  width:14px;
+}
+#mainWrapper #pagination_bottom a.next {
+  background-image:url(http://www.elle.com/cm/elle/site_images/elle-sprite-buttons.png);
+  background-position:-45px -3px;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  height:25px;
+  padding:2px 10px 6px;
+  width:14px;
+}
+#mainWrapper #pagination_bottom a.next:hover {
+  background-image:url(http://www.elle.com/cm/elle/site_images/elle-sprite-buttons.png);
+  background-position:-45px -68px;
+  background-repeat:no-repeat no-repeat;
+  float:left;
+  height:25px;
+  padding:2px 10px 6px;
+  width:14px;
+}
+#mainWrapper #pagination_bottom a.back {
+  margin:0 5px 0 0;
+}
+#mainWrapper #pagination_bottom a.next {
+  margin:0 0 0 5px;
+}
+#mainWrapper #pagination_bottom span.current {
+  float:left;
+  padding:12px 3px 0;
+  text-align:right;
+}
+#mainWrapper #pagination_bottom a.pagenumbers, #mainWrapper #pagination_bottom .ellipsis {
+  color:black;
+  float:left;
+  font-weight:normal;
+  padding:12px 3px 0;
+  text-decoration:none;
+}
+#viralsToolsTop {
+  clear:both;
+  float:left;
+  margin-top:15px;
+  width:610px;
+}
+#viralsToolsBottom {
+  clear:both;
+  float:right;
+  margin:0 0 15px;
+  width:auto;
+}
+.ie7 #viralsToolsBottom {
+  float:none;
+}
+.virals .viral_button {
+  cursor:pointer;
+  float:left;
+}
+.virals .viral_button a {
+  color:black;
+  margin-right:3px;
+  text-transform:lowercase;
+}
+.virals .viral_button span {
+  display:none;
+}
+.virals .viral_button .soc_commentcount span {
+  display:inline;
+}
+.virals .viral_button .soc_commentcount .soc_commentcountbin span, .virals .viral_button .soc_commentcount .soc_commentcountbin .fb_comments_count, .virals .viral_button .soc_commentcount .soc_commentcountbin .fb_comments_count_zero {
+  color:#000000;
+  font-family:FuturaPTCondBook-Reg, Futura, sans-serif !important;
+  font-size:14px !important;
+  font-style:normal !important;
+  font-variant:normal !important;
+  font-weight:normal !important;
+  line-height:25px !important;
+}
+.virals .xs_viral_button {
+  float:left;
+}
+.virals .plusone {
+  margin-right:10px;
+  margin-top:2px;
+}
+.virals .viral_comment a {
+  float:left;
+  text-decoration:none;
+}
+.virals .print a, .virals .email a {
+  display:block;
+  margin:0 5px 0 0;
+}
+.virals .print a {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-24px -333px;
+  background-repeat:no-repeat no-repeat;
+  border-right-color:#DDDDDD;
+  border-right-style:solid;
+  border-right-width:1px;
+  height:24px;
+  padding:0 5px 0 0;
+  width:26px;
+}
+.virals .email a {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:8px -331px;
+  background-repeat:no-repeat no-repeat;
+  border-right-color:#DDDDDD;
+  border-right-style:solid;
+  border-right-width:1px;
+  height:24px;
+  padding:0 5px 0 0;
+  width:26px;
+}
+.xs_viral_button_b {
+  float:left;
+}
+.xs_viral_button_b #xs_soc_fblike iframe {
+  z-index:100;
+}
+.twitterbot {
+  margin-right:5px;
+  margin-top:2px;
+}
+.viral_comment {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-62px -333px;
+  background-repeat:no-repeat no-repeat;
+  border-right-color:#DDDDDD;
+  border-right-style:solid;
+  border-right-width:1px;
+  cursor:pointer;
+  display:block;
+  height:24px;
+  margin:0 5px 0 0;
+  padding:0 5px 0 25px;
+  text-decoration:none;
+  width:auto;
+}
+#xs_soc_fblike {
+  border:none;
+  height:24px;
+  margin-top:2px;
+  overflow:hidden;
+  width:90px;
+}
+#xs_soc_tweetb {
+  height:21px;
+  width:105px;
+}
+.xs_soc_fbshare {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-195px -213px;
+  background-repeat:no-repeat no-repeat;
+  cursor:pointer;
+  display:block;
+  height:20px;
+  margin:0 10px 0 0;
+  overflow:hidden;
+  padding:4px 4px 0;
+  text-decoration:none !important;
+  text-indent:-9999em;
+  width:55px;
+}
+.pinterest {
+  float:left;
+  margin-right:10px;
+  margin-top:2px;
+}
+.siteFooter .pinterest {
+  float:none;
+}
+.siteFooter {
+  border-top-color:#000000;
+  border-top-style:solid;
+  border-top-width:1px;
+}
+.moreElle {
+  border-bottom-color:#000000;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin:20px 0 10px;
+  padding:0 0 10px;
+}
+.moreHeader {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  margin:0 0 10px;
+  text-align:center;
+}
+.moreElle h3 {
+  border-bottom-color:#000000;
+  border-bottom-style:solid;
+  border-bottom-width:3px;
+  display:inline-block;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin:0 auto;
+  text-transform:uppercase;
+}
+.moreContent {
+  background-image:url(http://www.elle.com/cm/elle/site_images/more-bg.png);
+  background-position:-1px 0;
+  background-repeat:no-repeat repeat;
+}
+.moreElle ul {
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+}
+.moreElle li {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  padding:10px 0;
+}
+.moreElle li.last {
+  border:none;
+}
+.moreElle a {
+  font-family:Georgia, serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:1.5em;
+  text-decoration:none;
+}
+.moreElle .small_new {
+  margin:0 auto 5px;
+}
+.siteLinks h4, .moreElle h4 {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-weight:normal;
+  letter-spacing:0.2em;
+  line-height:1.5em;
+  margin:0 0 5px;
+  text-transform:uppercase;
+}
+.moreElle h4 {
+  margin-bottom:0;
+  width:155px;
+}
+.footerAds {
+  background-image:url(http://www.elle.com/cm/elle/site_images/3column-bg.png);
+  background-position:0 0;
+  background-repeat:no-repeat repeat;
+  padding:5px 0 10px;
+}
+.footerSearch {
+  background-color:white;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-top-color:#000000;
+  border-top-style:solid;
+  border-top-width:1px;
+  margin:10px 0;
+  padding:15px 0 30px;
+  text-align:center;
+}
+.footerSearch .searchForm {
+  border-bottom-color:#CCCCCC;
+  border-bottom-width:1px;
+  border-right-color:#CCCCCC;
+  border-right-width:1px;
+  border-style:solid solid solid none;
+  border-top-color:#CCCCCC;
+  border-top-width:1px;
+  margin:0 auto 10px;
+  width:320px;
+}
+.footerSearch .searchInput {
+  width:280px;
+}
+.footerSearch ul {
+  list-style:none;
+}
+.footerSearch li {
+  display:inline-block;
+  margin-right:16px;
+}
+.footerSearch li.last {
+  margin:0;
+}
+.footerSearch .searchLink {
+  -webkit-transition:all 0.2s linear;
+  background-color:#F1F1F1;
+  display:block;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  letter-spacing:0.1em;
+  padding:5px 10px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.footerSearch .searchLink:hover {
+  background-color:#F20030;
+  color:#FFFFFF;
+}
+.siteLinks {
+  background-image:url(http://www.elle.com/cm/elle/site_images/more-bg.png);
+  background-position:-1px 0;
+  background-repeat:no-repeat repeat;
+  clear:both;
+  height:405px;
+  margin:10px 0;
+  padding-top:10px;
+}
+.siteLinks ul {
+  margin:0 auto 5px;
+}
+.siteLinks li {
+  padding:5px 0;
+}
+.siteLinks a {
+  font-family:Georgia, serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  text-decoration:none;
+}
+.footerSocial {
+  background-color:#000000;
+  clear:both;
+  padding:15px 0;
+  text-align:center;
+}
+.footerSocial h3, .footerSocial .more {
+  color:#FFFFFF;
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:0.875em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.2em;
+  line-height:1.143em;
+  text-transform:uppercase;
+}
+.footerSocial h3 {
+  display:inline-block;
+  margin-right:20px;
+}
+.footerSocial ul {
+  display:inline-block;
+}
+.footerSocial li {
+  display:inline-block;
+}
+.footerSocial a {
+  display:inline-block;
+  height:33px;
+  margin-right:10px;
+  text-indent:-9999em;
+  width:33px;
+}
+.footerSocial .facebook {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:0 -210px;
+  background-repeat:no-repeat no-repeat;
+}
+.footerSocial .facebook:hover {
+  background-position:-37px -210px;
+}
+.footerSocial .twitter {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-74px -210px;
+  background-repeat:no-repeat no-repeat;
+}
+.footerSocial .twitter:hover {
+  background-position:-111px -210px;
+}
+.footerSocial .pinterest {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-149px -211px;
+  background-repeat:no-repeat no-repeat;
+}
+.footerSocial .pinterest:hover {
+  background-position:-149px -247px;
+}
+.footerSocial .tumblr {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-74px -247px;
+  background-repeat:no-repeat no-repeat;
+}
+.footerSocial .tumblr:hover {
+  background-position:-111px -247px;
+}
+.footerSocial .googleplus {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-74px -284px;
+  background-repeat:no-repeat no-repeat;
+}
+.footerSocial .googleplus:hover {
+  background-position:-111px -284px;
+}
+.footerSocial .email {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-149px -284px;
+  background-repeat:no-repeat no-repeat;
+}
+.footerSocial .email:hover {
+  background-position:-186px -288px;
+}
+.footerSocial .more {
+  letter-spacing:0.2em;
+  text-decoration:none;
+}
+.footerSocial .more {
+  color:#FFFFFF;
+}
+#validation_error {
+  color:#F20030;
+  padding:10px 0;
+}
+#validation_error h3 {
+  font-size:1em;
+  margin:0 0 10px;
+}
+#validation_error ul {
+  padding-left:20px;
+}
+#validation_error li {
+  margin:0 0 5px;
+}
+.hdmModal {
+  -webkit-box-shadow:rgba(0, 0, 0, 0.496094) 1px 1px 3px;
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid #CCCCCC;
+  box-shadow:rgba(0, 0, 0, 0.496094) 1px 1px 3px;
+  display:none;
+  padding:40px 20px 20px;
+  position:absolute;
+  z-index:9999;
+}
+.hdmModal .close {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-257px -210px;
+  background-repeat:no-repeat no-repeat;
+  cursor:pointer;
+  display:block;
+  height:28px;
+  position:absolute;
+  right:10px;
+  top:10px;
+  width:32px;
+}
+.hdmModal .title {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin:0 0 10px;
+  padding:0 0 5px;
+  text-transform:uppercase;
+}
+.hdmModal p {
+  color:#333333;
+  line-height:1.5em;
+  margin:10px 0 15px;
+}
+.hdmModal .buttonLink {
+  color:#FFFFFF;
+  display:inline-block;
+  padding:3px 35px;
+}
+#connectEmailExists .title {
+  border:none;
+  font-family:Georgia, serif;
+  font-size:1em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  padding:0;
+  text-transform:none;
+}
+#connectEmailExists .title em {
+  font-style:normal;
+  font-weight:bold;
+}
+#connectEmailExists .hdmFacebookPic {
+  float:left;
+  margin:0 10px 10px 0;
+}
+#connectEmailExists .welcome {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  color:#F20030;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  padding:0 0 10px;
+  text-transform:uppercase;
+}
+#connectEmailExists label span {
+  display:block;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  letter-spacing:0.15em;
+  text-transform:uppercase;
+}
+#connectEmailExists input {
+  background-color:#F4F4F4;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:medium none;
+  font-size:1em;
+  padding:7px 5px;
+  width:290px;
+}
+#connectEmailExists .buttonLink {
+  padding:3px 10px;
+}
+#connectEmailExists .forgotPassword {
+  background-color:#FFFFFF;
+  border:1px solid #000000;
+  color:#000000;
+}
+#connectEmailExists .forgotPassword:hover {
+  background-color:#F20030;
+  border-color:#F20030;
+  color:#FFFFFF;
+}
+#connectEmailExists .modalActions {
+  background-image:url(http://www.elle.com/cm/elle/site_images/3column-bg.png);
+  background-position:35px 0;
+  background-repeat:no-repeat repeat;
+}
+#connectEmailExists .dontLink {
+  background-image:url(http://www.elle.com/cm/elle/site_images/elle-or.png);
+  background-position:6px 130px;
+  background-repeat:no-repeat no-repeat;
+  height:300px;
+  padding-left:70px;
+  width:240px;
+}
+#rr_social_tooltip {
+  -webkit-box-shadow:rgba(0, 0, 0, 0.199219) 1px 1px 1px;
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border-color:#E1E1E1 #999999 #999999 #E1E1E1;
+  border-style:solid;
+  border-width:1px;
+  box-shadow:rgba(0, 0, 0, 0.199219) 1px 1px 1px;
+  display:none;
+  padding:10px;
+  position:absolute;
+  z-index:999999;
+}
+#rr_social_tooltip .tooltip_head {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-119px -337px;
+  background-repeat:no-repeat no-repeat;
+  height:7px;
+  position:absolute;
+  top:-17px;
+  width:10px;
+}
+#rr_social_tooltip .tooltip_footer {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-117px -350px;
+  background-repeat:no-repeat no-repeat;
+  bottom:-20px;
+  height:10px;
+  position:absolute;
+  width:12px;
+}
+#rr_social_tooltip .social_thumb {
+  float:left;
+  margin-right:10px;
+}
+#rr_social_tooltip .social_title {
+  font-size:0.875em;
+  margin:0;
+}
+#rr_social_tooltip .social_link {
+  color:#FFFFFF;
+  display:inline-block;
+}
+#rr_social_tooltip_fb {
+  position:relative;
+}
+#rr_social_tooltip_fb .tooltip_head {
+  left:9px;
+}
+#rr_social_tooltip_fb .tooltip_footer {
+  left:120px;
+}
+#rr_social_tooltip_tw {
+  font-family:Georgia, serif;
+  position:relative;
+  width:290px;
+}
+#rr_social_tooltip_tw .tooltip_head {
+  left:75px;
+}
+#rr_social_tooltip_tw .tooltip_footer {
+  bottom:-86px;
+  left:120px;
+}
+.ie8 #rr_social_tooltip_tw .tooltip_footer {
+  bottom:-84px;
+}
+#rr_social_tooltip_tw .social_thumb {
+  height:80px;
+}
+#rr_social_tooltip_tw .tw_1_cont {
+  float:left;
+  margin-right:10px;
+  width:auto;
+}
+.ie8 #rr_social_tooltip_tw .tw_1_cont img {
+  float:left;
+  margin-right:10px;
+  max-width:60px;
+  width:auto;
+}
+#rr_social_tooltip_tw .tw_4, #rr_social_tooltip_tw .tw_3 {
+  color:#666666;
+  display:inline-block;
+  float:left;
+  height:20px;
+  padding-top:5px;
+  width:200px;
+}
+#rr_social_tooltip_tw .tw_4 {
+  padding-top:0;
+}
+#rr_social_tooltip_tw .tw_f {
+  bottom:0;
+  color:#FFFFFF;
+  position:absolute;
+  right:0;
+}
+#rr_social_tooltip_pinterest {
+  position:relative;
+  width:300px;
+}
+#rr_social_tooltip_pinterest .tooltip_head {
+  left:142px;
+}
+#rr_social_tooltip_pinterest .tooltip_footer {
+  left:120px;
+}
+#rr_social_tooltip_pinterest .social_link {
+  margin-top:5px;
+  padding:2px 5px;
+}
+#rr_social_tooltip_tumblr {
+  display:none;
+  position:relative;
+  width:180px;
+}
+#rr_social_tooltip_tumblr .tooltip_head {
+  left:110px;
+}
+#rr_social_tooltip_tumblr .tooltip_footer {
+  left:100px;
+}
+#rr_social_tooltip_tumblr .social_link {
+  margin-top:5px;
+}
+#rr_social_tooltip_googlep {
+  position:relative;
+}
+#rr_social_tooltip_googlep .tooltip_head {
+  left:243px;
+}
+#rr_social_tooltip_googlep .tooltip_footer {
+  left:90px;
+}
+#rr_social_tooltip_googlep .social_link {
+  margin-top:5px;
+}
+#rr_social_tooltip_newsltr {
+  position:relative;
+  width:300px;
+}
+#rr_social_tooltip_newsltr .tooltip_head {
+  left:270px;
+}
+#rr_social_tooltip_newsltr .tooltip_footer {
+  bottom:-21px;
+  left:120px;
+}
+#rr_social_tooltip_newsltr input {
+  background-color:#F4F4F4;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:medium none;
+  color:#666666;
+  float:left;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:1em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:normal;
+  margin:0 5px 0 0;
+  padding:10px;
+  text-transform:uppercase;
+  vertical-align:top;
+  width:145px;
+}
+#rr_social_tooltip_newsltr button {
+  margin:0;
+}
+#rr_social_tooltip_nl {
+  width:290px;
+}
+#rr_social_tooltip_nl .tooltip_head {
+  right:19px;
+  top:-7px;
+}
+#rr_social_tooltip_nl form {
+  margin-top:5px;
+}
+#rr_social_tooltip_nl input {
+  padding:4px;
+}
+#rr_social_tooltip_nl .tooltip_footer {
+  bottom:-10px;
+  left:130px;
+}
+#runwaySeasonModule {
+  height:480px;
+  padding:8px 0 0;
+}
+#runwayFeaturedArticle .featuredLink {
+  display:block;
+  position:relative;
+  text-decoration:none;
+}
+#runwayFeaturedArticle .featuredImage {
+  display:block;
+}
+#runwayFeaturedArticle .featuredContent {
+  background-color:rgba(255, 255, 255, 0.796875);
+  background-position:initial initial;
+  background-repeat:initial initial;
+  bottom:20px;
+  left:20px;
+  padding:10px 5px;
+  position:absolute;
+  width:270px;
+}
+#runwayFeaturedArticle .featuredTitle {
+  border-bottom-color:#999999;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:2.5em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:0.8em;
+  margin:0 0 5px;
+  padding:0 0 5px;
+  text-transform:uppercase;
+}
+#runwayFeaturedArticle .featuredDek {
+  color:black !important;
+  line-height:1.2em;
+  text-transform:uppercase;
+}
+#runwayFeaturedArticle .featuredLink:hover .featuredDek {
+  color:#000000;
+}
+#runwaySeasonExplorer {
+  background-image:url(http://www.elle.com/cm/elle/site_images/wrapper-bg.png);
+  background-position:-511px 0;
+  background-repeat:no-repeat repeat;
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  height:100%;
+}
+#runwaySeasonExplorer .moduleTitle {
+  font-size:1.75em;
+  line-height:1em;
+  margin:0;
+  padding:5px 0;
+}
+#runwayExplorerTabs {
+  margin-right:1px;
+}
+#runwayExplorerTabs .tab {
+  background-image:url(http://www.elle.com/cm/elle/site_images/shoptrend-bg.png);
+  background-position:0 0;
+  background-repeat:repeat no-repeat;
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  cursor:pointer;
+  padding:10px;
+  text-transform:uppercase;
+}
+#runwayExplorerTabs .tab:hover {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#F20030;
+}
+#runwayExplorerTabs .tab.active {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  color:#F20030;
+  cursor:auto;
+  position:relative;
+}
+#runwayExplorerTabs .tab.active::after {
+  background-image:url(http://www.elle.com/cm/elle/site_images/runway/runwayFlipbookSprite.png);
+  background-position:-266px -75px;
+  background-repeat:no-repeat no-repeat;
+  content:' ';
+  display:block;
+  height:18px;
+  margin-top:-9px;
+  position:absolute;
+  right:-10px;
+  top:50%;
+  width:11px;
+}
+.runwayExplorerFlipbooks {
+  background-color:#F4F4F4;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  display:none;
+  width:167px;
+}
+.runwayExplorerFlipbooks.active {
+  display:block;
+}
+.runwayExplorerFlipbooks ul {
+  height:440px;
+  list-style-image:initial;
+  list-style-position:initial;
+  list-style-type:none;
+  overflow:auto;
+  padding:0 15px;
+}
+#runwaySeasonModule .runwayExplorerFlipbooks ul {
+  height:440px;
+}
+.runwayExplorerFlipbooks li {
+  padding:5px 0;
+}
+.runwayExplorerFlipbooks a {
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:8px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#moduleFinder {
+  margin:0 0 15px;
+}
+#moduleFinder .moduleTitle {
+  border-bottom-style:none;
+  margin-bottom:0;
+}
+#moduleFinder .season {
+  float:left;
+  margin-right:13px;
+  position:relative;
+}
+#moduleFinder h4 {
+  border:1px solid #CCCCCC;
+  float:left;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:16px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:normal;
+  margin-right:4px;
+  padding:5px;
+  text-transform:uppercase;
+  width:103px;
+}
+#moduleFinder .iconArrow {
+  background-image:url(http://www.elle.com/cm/elle/site_images/runway/runway-sprite.png);
+  background-position:-8px -55px;
+  background-repeat:no-repeat no-repeat;
+  border:1px solid #CCCCCC;
+  cursor:pointer;
+  float:left;
+  height:29px;
+  width:30px;
+}
+#moduleFinder .iconArrow.active {
+  background-position:-38px -56px;
+}
+#moduleFinder .dropDown {
+  background-color:#FFFFFF;
+  background-position:initial initial;
+  background-repeat:initial initial;
+  border:1px solid #CCCCCC;
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin-top:35px;
+  max-height:180px;
+  overflow-y:scroll;
+  padding:10px;
+  position:absolute;
+  width:129px;
+  z-index:1;
+}
+#moduleFinder .dropDown a {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  display:block;
+  margin-bottom:7px;
+  padding-bottom:7px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#moduleFinder .dropDown a.last {
+  border:none;
+  margin:0;
+  padding:0;
+}
+.hearst-125-container {
+  padding:30px 0 10px;
+  text-align:center;
+}
+.footerCopyright {
+  color:#666666;
+  font-family:Georgia, serif;
+  font-size:0.75em;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:2.5em;
+  padding:15px 0 0;
+  text-align:center;
+}
+.footerCopyright p {
+  margin:0 0 20px;
+}
+.footerCopyright .oba {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:125px -32px;
+  background-repeat:no-repeat no-repeat;
+  padding:10px 30px 10px 0;
+}
+#sharethis_0, #sharethis_1 {
+  display:none;
+}
+.viral_tools .fb_edge_widget_with_comment, #viralTools .fb_edge_widget_with_comment {
+  position:absolute !important;
+}
+#fbMainWrapper #ams_elle_outbrain_610x, #ams_elle_outbrain_610x {
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  display:block;
+  margin-bottom:20px;
+  padding-bottom:15px;
+  padding-left:0;
+}
+#fbMainWrapper #ams_elle_outbrain_610x {
+  border-bottom-style:none;
+  border-bottom-width:medium;
+  margin-bottom:0;
+}
+#ams_elle_outbrain_610x li {
+  border-left-color:#CCCCCC;
+  border-left-style:solid;
+  border-left-width:1px;
+  float:left;
+  font-family:Georgia, serif;
+  list-style:none outside none;
+  min-height:220px;
+  text-align:center;
+  width:162px;
+}
+#ams_elle_outbrain_610x li:first-child {
+  border-left-style:none;
+  border-left-width:medium;
+  padding-left:0;
+}
+#ams_elle_outbrain_610x li div {
+  padding:0 10px;
+}
+#ams_elle_outbrain_610x li a {
+  text-decoration:none;
+}
+#ams_elle_outbrain_610x li img {
+  height:auto;
+  margin-bottom:10px;
+  width:96px;
+}
+#moduleGlo .moduleTitle {
+  background-image:url(http://www.elle.com/cm/elle/site_images/homepage/bg-glo-part.png);
+  background-position:-13px -7px;
+  background-repeat:no-repeat no-repeat;
+  border-bottom-width:0;
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:20px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  height:21px;
+  line-height:21px;
+  margin-top:-4px;
+  padding-bottom:35px;
+  padding-top:30px;
+  width:325px;
+}
+#gloList {
+  list-style-type:none;
+  margin-left:-18px;
+}
+#gloList li a {
+  position:relative;
+}
+#gloList li a::before {
+  background-image:url(http://www.elle.com/cm/elle/site_images/global-sprite.png);
+  background-position:-491px -122px;
+  background-repeat:no-repeat no-repeat;
+  content:'';
+  height:9px;
+  left:-13px;
+  position:absolute;
+  top:4px;
+  width:10px;
+}
+#gloList li:hover a::before {
+  background-position:-491px -166px;
+}
+#moduleDesigner {
+  float:right;
+  position:relative;
+  right:160px;
+  top:-65px;
+  width:295px;
+}
+#moduleDesigner h4 {
+  background-color:#FFFFFF;
+  border:1px solid #CCCCCC;
+  float:left;
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:21px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  letter-spacing:0.1em;
+  line-height:normal;
+  margin-right:8px;
+  padding:6px 5px 6px 10px;
+  text-transform:uppercase;
+  width:237px;
+}
+#moduleDesigner .iconArrow {
+  background-attachment:scroll;
+  background-color:transparent;
+  background-image:url(http://www.elle.com/cm/elle/site_images/runway/runway-sprite.png);
+  background-position:-225px -18px;
+  background-repeat:no-repeat no-repeat;
+  border:1px solid #CCCCCC;
+  cursor:pointer;
+  float:left;
+  height:37px;
+  width:30px;
+}
+#moduleDesigner .iconArrow.active {
+  background-position:-276px -22px;
+}
+#moduleDesigner .dropDown {
+  background-attachment:scroll;
+  background-color:#FFFFFF;
+  background-image:none;
+  background-position:0 0;
+  background-repeat:repeat repeat;
+  border:1px solid #CCCCCC;
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin-top:45px;
+  max-height:180px;
+  overflow-y:scroll;
+  padding:10px;
+  position:absolute;
+  width:272px;
+  z-index:1;
+}
+#moduleDesigner .dropDown a {
+  border-bottom-color:#CCCCCC;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  display:block;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:16px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+  margin-bottom:7px;
+  padding-bottom:7px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+#moduleDesigner .dropDown {
+  font-family:FuturaPTMedium-Reg, sans-serif;
+  font-size:11px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+._openArticleWide img {
+  max-width:none;
+}
+._openArticleWide .headlines {
+  font-family:FuturaPTCondBook-Reg, sans-serif;
+  font-size:25px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+._openArticleWide .designerName {
+  display:block;
+  font-family:FuturaPTLight-Reg, sans-serif;
+  font-size:40px;
+  font-style:normal;
+  font-variant:normal;
+  font-weight:normal;
+  line-height:24px;
+  margin-top:10px;
+}
+body._openArticleWide {
+  line-height:1.5;
+}
+._blogLanding .stbutton.stico_default {
+  display:none;
+}
+._blogLanding .sponsored #viralsToolsTop {
+  width:480px;
+}
+._blogLanding .sponsored #xs_soc_tweetb {
+  width:85px;
+}
